@@ -17,3 +17,7 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+## Learn more
+
+  * Created using: https://medium.com/@pamit/building-a-restful-backend-with-elixir-phoenix-84fe390975c
