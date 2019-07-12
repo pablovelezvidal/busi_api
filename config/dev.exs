@@ -39,7 +39,7 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :busi_api, BusiApi.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
+  username: "pvelez",
   password: "",
   database: "busi_api_dev",
   hostname: "localhost",

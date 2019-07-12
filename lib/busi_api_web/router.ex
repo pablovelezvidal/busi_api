@@ -8,4 +8,13 @@ defmodule BusiApiWeb.Router do
   scope "/api", BusiApiWeb do
     pipe_through :api
   end
+
+  pipeline :browser do
+    plug(:accepts, ["html"])
+  end
+
+  scope "/", BusiApiWeb do
+    pipe_through :browser
+    get "/", DefaultController, :index
+  end
 end
