@@ -8,7 +8,8 @@ defmodule BusiApiWeb.Router do
   scope "/api", BusiApiWeb do
     pipe_through :api
     resources "/businesses", BusinessController, except: [:new, :edit]
-  end
+    post "/users/signup", UserController, :create
+    post "/users/signin", UserController, :signin  end
 
   pipeline :browser do
     plug(:accepts, ["html"])
